@@ -6,7 +6,7 @@ var soundsArr = ['sounds/bubbles.mp3','sounds/confetti.mp3','sounds/clay.mp3','s
 
 
 const randomColors = ()=>{
-	
+	document.getElementById('title').style.display = 'none';
 	var soundurl =  Math.floor(Math.random()*20);
 	var sound = new Howl({
      src: [soundsArr[soundurl]]

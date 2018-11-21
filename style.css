@@ -13,14 +13,13 @@ body{
 	height: 10px;
 	border-radius: 50%;
 	background-color: yellow;
-	/*transition: background-color 2s;*/
-	/*animation-name: fade;
-	animation-duration: 2s;   */
 }
-/*@keyframes fade{
-	0%  {width:100%;height: 100%}
-	25% {width:75%;height: 75%}
-	50% {width:50%;height: 50%}
-	75% {width:25%;height:25% }
-	100% {width:0%;height: 0%}
-}*/
+#title{
+	z-index: 1;
+	color: white;
+	font-size: 225%;
+	width:300px;
+	font-family: courier;
+	font-weight: bolder;
+	margin: 250px auto;
+}
